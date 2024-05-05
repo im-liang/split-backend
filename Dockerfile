@@ -1,5 +1,7 @@
 FROM golang:1.22
 
+ENV PORT=8090
+
 WORKDIR /app
 
 COPY src/ .
